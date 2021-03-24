@@ -1,0 +1,15 @@
+.Container{
+    width: 90%;
+    max-height: max-content;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 1150px) {
+    .Container{
+        width: 100%;
+    }
+}

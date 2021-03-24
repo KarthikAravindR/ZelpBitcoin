@@ -1,0 +1,32 @@
+.Container{
+    width: 50%;
+    height: 400px;
+    padding: 25px 25px 25px 100px;
+    box-sizing: border-box;
+}
+.Container p{
+    color: rgb(116, 114, 114);
+}
+.Container select{
+    width: 300px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.bitcoinValue{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 70px;
+}
+@media (max-width: 950px) {
+    .Container{
+        width: 100%;
+    }
+}
+@media (max-width: 750px) {
+    .Container{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        height: 300px;
+    }
+}
